@@ -1,0 +1,36 @@
+body{
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+logo{
+  font-size: 150px;
+  font-family: Arial, Helvetica, Times, fantasy, sans-serif;
+  position: relative;
+  top: 12pc;
+  left: 13pc;
+  background: linear-gradient(to top left, #00ffff, #00b1ff, #4e73ff, #ff00d0);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+button{
+  position: relative;
+  top: 31pc;
+  right: 35pc;
+  border: none;
+  border-radius: 8px;
+  background-color: #272b33;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+img{
+  background-color: white;
+  border-radius: 20px;
+}
+text{
+  position: relative;
+  bottom: 6px;
+}
+button:hover{
+  background: linear-gradient(to top left, #00ffff, #00b1ff, #4e73ff, #ff00d0);
+}
